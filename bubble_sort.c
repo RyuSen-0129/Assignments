@@ -32,3 +32,14 @@ int main()
         }
         return 0;
 }
+//Incorrect loop
+
+for (i=0;i<n-1;i++){
+	for(j=0;j<n-1-i;j++){
+		if(a[j]>a[j+1]{
+			ll swap=a[i];
+                    	a[i]=a[j];
+                    	a[j]=swap;
+		}
+	}
+}
